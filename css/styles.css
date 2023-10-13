@@ -731,7 +731,6 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--WHITE, #fff);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -770,7 +769,7 @@ img {
 }
 
 .check-text span {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -783,7 +782,6 @@ img {
 }
 
 .check-icon-span {
-  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
